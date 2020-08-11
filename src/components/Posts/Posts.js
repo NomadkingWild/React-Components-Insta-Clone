@@ -14,7 +14,7 @@ const Posts = (props) => {
         posts.map(po=>{
           return <Post
           key={po.id}
-          post={po}
+          posts={po}
           likePost={likePost}
           />
         })
